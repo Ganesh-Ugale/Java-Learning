@@ -1,3 +1,7 @@
+/*
+ * Program to Convert the Months to years and remaining Months Small Mini Application
+*/
+
 import java.util.Scanner;
 class MonthToYear
 {
