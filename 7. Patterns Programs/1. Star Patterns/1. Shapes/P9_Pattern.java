@@ -14,7 +14,7 @@ Print the Following Pattern: (Hollow Square + left Diagonal + right Diagonal)
 
 */
 
-class Pattern9{
+class P9_Pattern{
 	public static void main(String[] args) {
 		int n = 10; // number of i and j
 		for (int i = 1; i <= n; i++) {  // i (rows)
