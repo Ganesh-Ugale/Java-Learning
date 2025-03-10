@@ -9,7 +9,7 @@ Print the Following Pattern: (Square)
 
 */
 
-class Pattern1{
+class P1_Pattern{
 	public static void main(String[] args) {
 		int n = 5; // number i and j
 		for (int i = 1; i <= n; i++) {  // i (rows)
