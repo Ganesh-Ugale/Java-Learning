@@ -6,7 +6,7 @@ Print the Following Pattern: (Top Line of Square)
 
 */
 
-class Pattern4{
+class P4_Pattern{
 	public static void main(String[] args) {
 		int n = 5; // number of i and j
 		for (int i = 1; i <= n; i++) {  // i (rows)
