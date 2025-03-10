@@ -8,7 +8,7 @@ Print the Following Pattern: (Horizontal Rectangle)
 
 */
 
-class Pattern3{
+class P3_Pattern{
 	public static void main(String[] args) {
 		int n = 5; // number of i and j
 		for (int i = 1; i <= (n-1); i++) {  // i (rows)
