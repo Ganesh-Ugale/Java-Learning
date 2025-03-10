@@ -9,7 +9,7 @@ Print the Following Pattern: (Top + Left Line of Square)
 
 */
 
-class Pattern5{
+class P5_Pattern{
 	public static void main(String[] args) {
 		int n = 5; // number of i and j
 		for (int i = 1; i <= n; i++) {  // i (rows)
