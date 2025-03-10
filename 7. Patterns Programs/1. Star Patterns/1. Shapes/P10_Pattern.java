@@ -17,7 +17,7 @@ Print the Following Pattern: (Hollow Square + left Diagonal + right Diagonal + T
 
 */
 
-class Pattern10{
+class P10_Pattern{
 	public static void main(String[] args) {
 		int n = 13; // number of i and j
 		for (int i = 1; i <= n; i++) {  // i (rows)
