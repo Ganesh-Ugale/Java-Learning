@@ -9,7 +9,7 @@ Print the Following Pattern: (ixj Matterix)
 
 */
 
-class Pattern0{
+class P0_Pattern{
 	public static void main(String[] args) {
 		int n = 5; // number of i and j
 		for (int i = 1; i <= n; i++) {  // i (rows)
