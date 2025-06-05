@@ -1,2 +1,33 @@
-13. OOP/06. Static & Non-Static Members In Same Class/01. Execution Flow of Static & Non-Static Members/bin/P01_ExecutionFlow.class
-13. OOP/06. Static & Non-Static Members In Same Class/01. Execution Flow of Static & Non-Static Members/bin/P02_Stat_NonStatMembersAccessing.class
+# Ignore Eclipse/IDE related folders
+.metadata/
+.settings/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore build directory
+bin/
+
+# Ignore Eclipse project files
+.classpath
+.project
+
+# Ignore Java module descriptor file
+module-info.java
+
+# Ignore all .class files
+*.class
+
+# Ignore build directories
+/bin/
+/out/
+/build/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+.vscode/
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
