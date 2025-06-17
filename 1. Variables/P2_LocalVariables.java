@@ -28,7 +28,7 @@ class LocalVariables
 				System.out.println(var1);
 			}
 		}
-		{ // We cannot use var without initialization it gives CTE
+		{ // We cannot use local var without initialization it gives CTE
 			byte var;
 			//System.out.println(var); // CTE
 		}
