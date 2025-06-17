@@ -61,7 +61,8 @@ class Subtraction
 		//System.out.println("boolean+boolean=CTE: " + c);
 
 
-
+		char chch = '\uFFFF';
+		System.out.println((int)chch); // 65535 this is the highest value of char we called it as a BMP size
 
 	}
 }
