@@ -12,5 +12,6 @@ class LogicalOperators
 		System.out.println("(!false) || (!true): " + ((!false) || (!true))); // true
 		System.out.println("'a'=='A' || false==false: " + ('a' == 'A' || false==false)); // true
 		System.out.println("'a'/'b'==0 || '1'==1: " + ('a'/'b'==0 || '1'==1)); // true
+		// System.out.println('a'/'b');
 	}
 }
