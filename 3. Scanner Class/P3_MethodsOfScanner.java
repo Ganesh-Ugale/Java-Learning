@@ -6,7 +6,7 @@ class MethodsOfScanner
 	{
 		Scanner sc = new Scanner(System.in);
 
-		byte a = sc.nextByte();
+		int a = sc.nextByte();
 		short b = sc.nextShort();
 		int c = sc.nextInt();
 		long d = sc.nextLong();
