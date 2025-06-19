@@ -11,7 +11,7 @@ class CompoundAssignmentOpr
 		System.out.println(salarry);
 		salarry /=20d;// i.e salarry = salarry / 4000;
 		System.out.println(salarry);
-		salarry %=20;// i.e salarry = salarry % 4000;
+		salarry %=20;// i.e salarry = salarry  % 4000;
 		System.out.println(salarry);
 	}
 }
