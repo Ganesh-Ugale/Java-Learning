@@ -10,8 +10,8 @@ class ShortConversion
 		short shortValue = 32767; // Stored Successfully
 		System.out.println("Short Max Value: " + shortValue);
 
-		//char charVar = shortValue; // CTE lossy conversion from short to char
-		//System.out.println("Short to char: " + charVar);
+		char charVar = (char)shortValue; // CTE lossy conversion from short to char
+		System.out.println("Short to char: " + charVar);
 
 		int intVar = shortValue; // Stored Successfully
 		System.out.println("short to int: " + intVar);
