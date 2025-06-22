@@ -26,7 +26,7 @@ class PalindromicPrimeNumCheck{
 		for (int i = num; i > 0; i /= 10) {
 			rev = (rev * 10) + i % 10;
 		}
-		return rev;
+		return rev; // this returns the rev value
 	}
 
 	// check the num is Prime 
