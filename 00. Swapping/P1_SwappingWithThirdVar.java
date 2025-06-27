@@ -13,14 +13,14 @@ class SwappingWithThirdVar
 		int temp; // 3rd var
 
 		System.err.println("BEFORE SWAPPING a: " + a);
-		System.err.println("BEFORE SWAPPING a: " + b);
+		System.err.println("BEFORE SWAPPING b: " + b);
 
 		temp = a;
 		a = b;
 		b = temp;
 
 		System.err.println("AFTER SWAPPING a: " + a);
-		System.err.println("AFTER SWAPPING a: " + b);
+		System.err.println("AFTER SWAPPING b: " + b);
 
 		
 	}
