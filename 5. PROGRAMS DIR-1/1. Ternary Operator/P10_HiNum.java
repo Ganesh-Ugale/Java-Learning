@@ -11,6 +11,7 @@ class HiNum
 		System.out.print("Enter a Num : ");
 		int num = new Scanner(System.in).nextInt();
 
+// this will gives the output
 		String op = ((num%2==0)&&(num%5==0))?("HiTwoHiFive"):((num%2==0)?("HiTwo"):((num%5==0)?("HiFive"):((num%2!=0 && num%5 !=0)?("_"):("_"))));
 		System.out.println(op);
 	}

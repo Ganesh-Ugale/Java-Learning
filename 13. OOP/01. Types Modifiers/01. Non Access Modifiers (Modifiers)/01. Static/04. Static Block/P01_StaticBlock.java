@@ -10,7 +10,7 @@ class P01_StaticBlock{
 	// Static Block
 
 	// Declare Before the main method Writes
-	static{
+	static{ // there is no any signatur
 		System.out.println("\nStatic Block 1 Executed!"); // Executes First bcz Static Members are Executes TOP to BOTTOM Priority Wise.
 	}
 	

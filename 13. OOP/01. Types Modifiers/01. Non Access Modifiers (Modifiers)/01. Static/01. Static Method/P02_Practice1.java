@@ -1,7 +1,7 @@
 class P02_Practice1{
 
 	public static void main(String[] args) {
-		hello();
+		hello(); // Here we this method calls the method
 	}
 	// METHODS
 	public static void hello(){
