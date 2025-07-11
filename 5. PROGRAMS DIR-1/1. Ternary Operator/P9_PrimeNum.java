@@ -11,7 +11,8 @@ class PrimeNum
 		System.out.print("Enter a Num : ");
 		int num = new Scanner(System.in).nextInt();
 		
-		String primeNum = (num==1)?("1 is not prime number"):(num==2 || num==3)?(num+"is Prime"):((num%2==0 || num%3==0)?(num+"is not Prime"):(num+"is Prime"));
+		String primeNum = (num==1)?("1 is not prime number"):(num==2 || num==3)?(num+"is Prime"):
+		((num%2==0 || num%3==0)?(num+"is not Prime"):(num+"is Prime"));
 		System.out.println(primeNum);
 	}
 }
